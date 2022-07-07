@@ -1,7 +1,33 @@
 /** CSS STYLE **/
 
-.hello {
-  display: block;
+body {
+  color: #2a2626;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6em;
 
-  color: #fff;
+  background: rgb(135 57 57);
+}
+
+header {
+  font-family: Neucha, cursive;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+main {
+  width: 1110px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
