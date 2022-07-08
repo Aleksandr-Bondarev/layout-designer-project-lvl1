@@ -44,9 +44,8 @@ h3 {
 }
 
 main {
-  width: 1110px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  max-width: 1110px;
+  margin: auto;
 }
 
 /* class styles (all project) */
@@ -75,13 +74,13 @@ main {
   padding: 100px 0;
 }
 
-/* sections */
-
-/* header */
-
 .orange-title {
   color: #fe8a02;
 }
+
+/* sections */
+
+/* header */
 
 .header-image {
   position: absolute;
@@ -130,4 +129,20 @@ button a {
 
 header {
   background-color: #f5f4f0;
+}
+
+/* video section */
+
+.video-section {
+  text-align: center;
+}
+
+.video-section h2 {
+  margin-bottom: 30px;
+}
+
+.video {
+  margin: 30px;
+
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 15%));
 }
