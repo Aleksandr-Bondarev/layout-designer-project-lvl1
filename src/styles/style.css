@@ -15,6 +15,10 @@
   padding: 0;
 }
 
+main {
+  width: 100%;
+}
+
 body {
   color: #2a2626;
   font-size: 16px;
@@ -41,11 +45,6 @@ h2 {
 
 h3 {
   font-size: 34px;
-}
-
-main {
-  max-width: 1110px;
-  margin: auto;
 }
 
 /* class styles (all project) */
@@ -76,6 +75,10 @@ main {
 
 .orange-title {
   color: #fe8a02;
+}
+
+.white-title {
+  color: #fff;
 }
 
 /* sections */
@@ -134,6 +137,8 @@ header {
 /* video section */
 
 .video-section {
+  height: 765px;
+
   text-align: center;
 }
 
@@ -145,4 +150,42 @@ header {
   margin: 30px;
 
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+/* main menu section */
+
+.main-menu {
+  height: 891px;
+  margin-top: 30px;
+
+  background-color: #42413c;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+.menu-title {
+  width: 350px;
+  height: 323px;
+  padding: 24px;
+}
+
+.menu-title h2 {
+  font-size: 52px;
+}
+
+.menu-navigation-element {
+  width: 350px;
+  height: 323px;
+  margin: 24px;
+
+  background: #f5f4f0;
+}
+
+.menu-navigation-element:hover {
+  background-color: #fe8a02;
 }
