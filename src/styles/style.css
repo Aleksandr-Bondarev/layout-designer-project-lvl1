@@ -155,7 +155,7 @@ header {
 /* main menu section */
 
 .main-menu {
-  height: 891px;
+  height: 990px;
   margin-top: 30px;
 
   background-color: #42413c;
@@ -164,14 +164,28 @@ header {
 .menu-container {
   display: flex;
   flex-wrap: wrap;
+  gap: 20px 30px;
   justify-content: center;
-  padding-top: 150px;
+
+  padding-top: 200px;
+  padding-right: 300px;
+  padding-left: 300px;
+
+  /* display: grid;
+  height: 200px;
+  grid-template-areas:
+  "menu-container ikea-href optimization-href"
+  "novelty-href depreciation-href error-href";
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr); */
+
+  /* gap: 20px 5px;
+
+  justify-items: center; */
 }
 
 .menu-title {
   width: 350px;
   height: 323px;
-  padding: 24px;
 }
 
 .menu-title h2 {
@@ -181,11 +195,37 @@ header {
 .menu-navigation-element {
   width: 350px;
   height: 323px;
-  margin: 24px;
 
   background: #f5f4f0;
 }
 
+/* .ikea-href {
+  margin: 100px 30px 20px 0px;
+}
+
+.optimization-href {
+  margin: 100px 0 20px 0px;
+}
+
+.novelty-href {
+  margin-right: 30px;
+}
+
+.depreciation-href {
+  margin-right: 30px;
+}
+
+.error-href {
+  margin-right: 30px;
+} */
+
 .menu-navigation-element:hover {
   background-color: #fe8a02;
+}
+
+.menu-navigation-element h1 {
+  margin-bottom: 40px;
+
+  font-size: 64px;
+  line-height: 1;
 }
