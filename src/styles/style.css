@@ -81,6 +81,10 @@ h3 {
   color: #fff;
 }
 
+.link {
+  text-decoration: none;
+}
+
 /* sections */
 
 /* header */
@@ -170,17 +174,6 @@ header {
   padding-top: 200px;
   padding-right: 300px;
   padding-left: 300px;
-
-  /* display: grid;
-  height: 200px;
-  grid-template-areas:
-  "menu-container ikea-href optimization-href"
-  "novelty-href depreciation-href error-href";
-  grid-template: repeat(3, 1fr) / repeat(3, 1fr); */
-
-  /* gap: 20px 5px;
-
-  justify-items: center; */
 }
 
 .menu-title {
@@ -199,33 +192,100 @@ header {
   background: #f5f4f0;
 }
 
-/* .ikea-href {
-  margin: 100px 30px 20px 0px;
+.menu-navigation-element h1 {
+  padding: 24px 0 0 24px;
+
+  color: #2a2626;
+  font-size: 64px;
+  line-height: 1;
 }
 
-.optimization-href {
-  margin: 100px 0 20px 0px;
+.menu-navigation-element h2 {
+  padding: 24px 24px 0;
+
+  color: #fe8a02;
+
+  font-size: 34px;
 }
 
-.novelty-href {
-  margin-right: 30px;
-}
+.menu-navigation-element p {
+  padding: 0 24px 24px;
 
-.depreciation-href {
-  margin-right: 30px;
+  color: #2a2626;
 }
-
-.error-href {
-  margin-right: 30px;
-} */
 
 .menu-navigation-element:hover {
   background-color: #fe8a02;
 }
 
-.menu-navigation-element h1 {
-  margin-bottom: 40px;
+.menu-navigation-element:hover h1 {
+  color: #fff;
+}
 
-  font-size: 64px;
-  line-height: 1;
+.menu-navigation-element:hover h2 {
+  color: #fff;
+}
+
+.menu-navigation-element:hover p {
+  color: #fff;
+}
+
+/* ikea section */
+
+#ikea-effect {
+  height: 880px;
+  padding: 50px 0 100px;
+
+  background-color: #f5f4f0;
+}
+
+#ikea-effect img {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.ikea-text-top {
+  position: absolute;
+  top: 100px;
+  left: 600px;
+
+  width: 500px;
+}
+
+.main-paragraph {
+  color: #908d8b;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: Neucha, sans-serif;
+}
+
+.ikea-brown-title {
+  margin: 100px 0 20px;
+
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+
+  text-transform: uppercase;
+
+  background: #b09a81;
+}
+
+.ikea-brown-paragraph {
+  margin: 5px 0 5px 10px;
+}
+
+.ikea-columns {
+  columns: 2;
+}
+
+.ikea-left-column {
+  top: 680px;
+
+  height: 125px;
+}
+
+.ikea-rigth-column {
+  top: 680px;
+
+  height: 125px;
 }
