@@ -374,3 +374,98 @@ header {
 
   background-color: #f5f4f0;
 }
+
+/* footer */
+
+#footer {
+  height: 581px;
+}
+
+.mail-info {
+  display: flex;
+  height: 190px;
+
+  background: #42413c;
+}
+
+#footer h3 {
+  padding: 55px 0 0 55px;
+}
+
+.email-form {
+  width: 50%;
+  padding-top: 38px;
+  padding-left: 122px;
+}
+
+.form-label {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.accept-rules {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.send-email {
+  display: flex;
+}
+
+#post-name {
+  width: 423px;
+  height: 50px;
+
+  border: none;
+}
+
+.button-sumbit {
+  position: static;
+
+  width: 70px;
+  height: 50px;
+}
+
+.cursor::before {
+  position: static;
+
+  display: block;
+  width: 24px;
+  height: 24px;
+
+  background: url("../images/send.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+
+  content: "";
+}
+
+.copyright {
+  width: 50%;
+
+  margin: auto;
+  margin-top: 76px;
+
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.student-name {
+  width: 251px;
+  height: 22px;
+  margin: auto;
+}
+
+.article-href {
+  width: 471px;
+  height: 25px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.hexlet-school {
+  width: 259px;
+
+  margin: 0 auto;
+}
