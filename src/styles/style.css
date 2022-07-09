@@ -81,8 +81,47 @@ h3 {
   color: #fff;
 }
 
+.paragraph-with-background {
+  margin: 5px 0 5px 10px;
+}
+
 .link {
   text-decoration: none;
+}
+
+.project-name {
+  color: #908d8b;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: Neucha, sans-serif;
+}
+
+.image-right {
+  position: absolute;
+
+  left: 532px;
+
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.columns {
+  columns: 2;
+}
+
+.shadow-img {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.brown-title-background {
+  margin: 100px 0 20px;
+
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+
+  text-transform: uppercase;
+
+  background: #b09a81;
 }
 
 /* sections */
@@ -234,13 +273,9 @@ header {
 
 #ikea-effect {
   height: 880px;
-  padding: 50px 0 100px;
+  padding: 0 0 100px;
 
   background-color: #f5f4f0;
-}
-
-#ikea-effect img {
-  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .ikea-text-top {
@@ -249,33 +284,6 @@ header {
   left: 600px;
 
   width: 500px;
-}
-
-.main-paragraph {
-  color: #908d8b;
-  font-weight: 400;
-  font-size: 24px;
-  font-family: Neucha, sans-serif;
-}
-
-.ikea-brown-title {
-  margin: 100px 0 20px;
-
-  color: #fff;
-  font-weight: 700;
-  font-size: 14px;
-
-  text-transform: uppercase;
-
-  background: #b09a81;
-}
-
-.ikea-brown-paragraph {
-  margin: 5px 0 5px 10px;
-}
-
-.ikea-columns {
-  columns: 2;
 }
 
 .ikea-left-column {
@@ -288,4 +296,62 @@ header {
   top: 680px;
 
   height: 125px;
+}
+
+/* premature optimization section */
+
+#premature-optimization {
+  height: 950px;
+
+  background-color: #b09a81;
+}
+
+#premature-optimization h4 {
+  color: #d7ccc0;
+}
+
+.premature-text-top {
+  position: absolute;
+  top: 100px;
+
+  width: 502px;
+  height: 296px;
+}
+
+.about-premature-optimization {
+  margin: 30px 30px 0 0;
+
+  color: #fff;
+  font-weight: 400;
+  font-size: 34px;
+  font-family: Neucha, sans-serif;
+}
+
+.how-appears-white-background {
+  margin: 538px 0 20px;
+
+  color: #b09a81;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: OpenSans, sans-serif;
+
+  text-transform: uppercase;
+
+  background: #fff;
+}
+
+/* distortion-of-novelty */
+
+#distortion-of-novelty {
+  height: 940px;
+
+  background-color: #f5f4f0;
+}
+
+.novelty-text-top {
+  position: absolute;
+  top: 100px;
+  left: 600px;
+
+  width: 500px;
 }
