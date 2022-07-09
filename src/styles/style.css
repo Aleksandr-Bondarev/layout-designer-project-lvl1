@@ -124,6 +124,23 @@ h3 {
   background: #b09a81;
 }
 
+.text-top-left {
+  position: absolute;
+  top: 100px;
+
+  width: 502px;
+  height: 296px;
+}
+
+.about-white-text {
+  margin: 30px 30px 0 0;
+
+  color: #fff;
+  font-weight: 400;
+  font-size: 34px;
+  font-family: Neucha, sans-serif;
+}
+
 /* sections */
 
 /* header */
@@ -310,23 +327,6 @@ header {
   color: #d7ccc0;
 }
 
-.premature-text-top {
-  position: absolute;
-  top: 100px;
-
-  width: 502px;
-  height: 296px;
-}
-
-.about-premature-optimization {
-  margin: 30px 30px 0 0;
-
-  color: #fff;
-  font-weight: 400;
-  font-size: 34px;
-  font-family: Neucha, sans-serif;
-}
-
 .how-appears-white-background {
   margin: 538px 0 20px;
 
@@ -354,4 +354,16 @@ header {
   left: 600px;
 
   width: 500px;
+}
+
+/* hyperbolic-depreciation */
+
+#hyperbolic-depreciation {
+  height: 950px;
+
+  background-color: #b09a81;
+}
+
+#hyperbolic-depreciation h4 {
+  color: #d7ccc0;
 }
