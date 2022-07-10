@@ -234,9 +234,7 @@ header {
   gap: 20px 30px;
   justify-content: center;
 
-  padding-top: 200px;
-  padding-right: 300px;
-  padding-left: 300px;
+  padding: 200px 210px 0;
 }
 
 .menu-title {
