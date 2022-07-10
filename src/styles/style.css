@@ -323,9 +323,7 @@ header {
 /* premature optimization section */
 
 #premature-optimization {
-  height: 850px;
-
-  padding-bottom: 100px;
+  min-height: 840px;
 
   background-color: #b09a81;
 }
